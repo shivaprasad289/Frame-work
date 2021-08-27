@@ -6,8 +6,8 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.StromgerMe.Scripts.AddCoaches"/>
-      <class name="com.StromgerMe.Scripts.LoginTest"/>
+     <class name="com.StromgerMe.Scripts.LoginTest"/>
+     <!--   <class name="com.StromgerMe.Scripts.AddCoaches"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -11,6 +11,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -19,18 +20,19 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 
 /**
  * This class contains webdriver specific geenric methods.
  * @author Shivaprasad
  */
-public class WebDriverUtility {
+public class WebDriverUtility{
 	/**
 	 * This method wait for 20 seconds for page loading.
 	 * @param driver
 	 */
 	public void waitUntilPageLoad(WebDriver driver) {
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	/**
 	 * This method wait for the element to be visible.
@@ -223,14 +225,13 @@ public class WebDriverUtility {
 		driver.switchTo().defaultContent();
 	}
 	/**
-	 * This method is helps to take screen shot and stores the file name as the current system time.
+	 *  This method is helps to take screen shot and stores the file name as the current system time.
 	 * @param driver
-	 * @param screenShotName
-	 * @return
-	 * @throws IOException
+	 * @param screenShotPath
+	 * @throws IOException 
 	 */
-	public String takeScreenShotName(WebDriver driver, String screenShotName) throws IOException {
-		String screenShotPath = "./screenshot"+screenShotName+JavaUtility.getCurrentSystemDate()+System.currentTimeMillis()+".png";
+	public String takeScreenShot(WebDriver driver, String screenShotName) throws IOException{
+		String screenShotPath = "./ScreenShots/"+"-"+screenShotName+"-"+JavaUtility.getCurrentSystemDate()+"-"+System.currentTimeMillis()+".png";
 		 File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		File desc = new File(screenShotPath);
 		FileUtils.copyFile(src, desc);

@@ -18,10 +18,10 @@ public class LoginTest extends BaseClass{
 	public void Login(String userName,String password,String expResult) throws IOException {
 		
 		HomePage homePage = new HomePage(driver);
-		String expectedErrorMessage=null,actualErrorMessage;
-		LoginPage login =new LoginPage(driver);		
+		String actualErrorMessage;
+		LoginPage login =new LoginPage(driver);	
+		logger.info("Login to the application");
 		login.login(userName,password);
-		expectedErrorMessage = login.getErrorMessage().getText();
 		actualErrorMessage = "Enter valid Admin ID and Password";
 		if(expResult.equals("Valid")) 
 		{
@@ -29,13 +29,19 @@ public class LoginTest extends BaseClass{
 			    wUtil.mouseOver(driver, homePage.getLogOutBtn());
     		    homePage.getLogOutBtn().click();
 			     Assert.assertTrue(true);
+			     logger.info("Test case pass...");
 		}	     
 		else if(expResult.equals("Invalid")) {
+			wUtil.waitUntilPageLoad(staticDriver);
 			boolean res = driver.getPageSource().contains(actualErrorMessage);
-			if(res==true)
+			if(res==true) {
 				Assert.assertTrue(true);
-			else
+				logger.info("Test case pass...");
+			}
+			else {
 				Assert.assertTrue(false); 
+				logger.info("Test case failed...");
+			}
 		}	
 	}
 	@DataProvider(name = "LoginData")

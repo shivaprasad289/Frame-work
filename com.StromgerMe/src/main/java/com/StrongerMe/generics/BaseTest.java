@@ -1,6 +1,9 @@
 package com.StrongerMe.generics;
 
 import java.util.concurrent.TimeUnit;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -9,10 +12,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.log4testng.Logger;
-
 import com.StrongerMe.ObjectRepositry.HomePage;
 import com.StrongerMe.ObjectRepositry.LoginPage;
+import org.apache.log4j.Logger;
 
 /**
  * Base class configuration
@@ -33,7 +35,8 @@ public class BaseTest
 	
 	@BeforeClass
 	public void configBC() throws Throwable{
-		logger = Logger.getLogger(getClass());	
+	    logger = Logger.getLogger("StrongerMe");
+		PropertyConfigurator.configure("Log4j.properties");
 		String browserName = fUtil.getPropertyStringValue("browser");
 		
 		if(browserName.equalsIgnoreCase("chrome")){
@@ -55,6 +58,7 @@ public class BaseTest
 	@BeforeMethod
 	public void configBM() throws Throwable {
 		String url = fUtil.getPropertyStringValue("url");
+		logger.info("Url is opened");
 		String un = fUtil.getPropertyStringValue("userName");
 	    String pwd = fUtil.getPropertyStringValue("password");
 		driver.get(url);

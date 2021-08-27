@@ -12,7 +12,7 @@ public interface IAutoConstant {
 	String CHROMEKEY = "webdriver.chrome.driver";
 	String CHROMEPATH = "./src/main/resources/driver/chromedriver.exe";
 	String EXCELPATH = "./src/test/resources/StrongerMe_required_data.xlsx";
-	String HTMLPATH = "./extentReport"+JavaUtility.getCurrentSystemDate()+".html";
+	String HTMLPATH = "./ExtentReports/"+JavaUtility.getCurrentSystemDate()+".html";
 	String COMMONDATAPROPERTYPATH = "./src/main/resources/commonData.properties";
 	String PAGETITLEFILEPATH = "./src/test/resources/pageTitles.properties";
 	String LOGINDATASHEETNAME = "Login_data";

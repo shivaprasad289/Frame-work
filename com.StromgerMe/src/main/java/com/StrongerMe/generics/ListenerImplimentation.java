@@ -1,9 +1,13 @@
 package com.StrongerMe.generics;
 
+import java.io.File;
 import java.io.IOException;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.Reporter;
+
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -13,7 +17,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class ListenerImplimentation extends BaseClass implements ITestListener {
 	ExtentReports reports;
 	ExtentTest test;
-	String screenShot = null;
+	String screenShot;
 	/**
 	 * This method will set the report path, document title, report name, theme and reporter name.
 	 */
@@ -41,7 +45,7 @@ public class ListenerImplimentation extends BaseClass implements ITestListener {
 	@Override
 	 public void onTestFailure(ITestResult result) {
 		try {
-			 screenShot = wUtil.takeScreenShotName(staticDriver, result.getMethod().getMethodName());
+			 screenShot = wUtil.takeScreenShot(staticDriver, result.getName());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
