@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.OutputType;
@@ -27,6 +28,7 @@ import org.testng.Reporter;
  * @author Shivaprasad
  */
 public class WebDriverUtility{
+	public Logger logger;
 	/**
 	 * This method wait for 20 seconds for page loading.
 	 * @param driver
@@ -257,4 +259,22 @@ public class WebDriverUtility{
 		r.keyPress(KeyEvent.VK_ENTER);
 		r.keyRelease(KeyEvent.VK_ENTER);
 	}
+	/**
+	 * Refresh the web page.
+	 * @param driver
+	 */
+	public void refreshBrowser(WebDriver driver) {
+		logger.info("Refreshing");
+		driver.navigate().refresh();
+		logger.info("Refresh successfully");
+	}
+	/**
+	 *This method returnsthe visible, inner text (which is not hidden by CSS) of 	the web-element.
+	 * @param element
+	 * @return
+	 */
+	public String getText(WebElement element) {
+		return element.getText().toString().trim();
+	}
+	
 }

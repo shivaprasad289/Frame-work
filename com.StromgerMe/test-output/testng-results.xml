@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-27T15:44:04 IST" name="Suite" finished-at="2021-08-27T15:44:24 IST" duration-ms="19964">
+  <suite started-at="2021-09-04T17:14:32 IST" name="Suite" finished-at="2021-09-04T17:14:53 IST" duration-ms="20195">
     <groups>
     </groups>
-    <test started-at="2021-08-27T15:44:04 IST" name="Test" finished-at="2021-08-27T15:44:24 IST" duration-ms="19964">
+    <test started-at="2021-09-04T17:14:32 IST" name="Test" finished-at="2021-09-04T17:14:53 IST" duration-ms="20195">
       <class name="com.StromgerMe.Scripts.LoginTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-08-27T15:44:04 IST" name="configBC" finished-at="2021-08-27T15:44:06 IST" duration-ms="1863" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:33 IST" name="configBC" finished-at="2021-09-04T17:14:35 IST" duration-ms="1831" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-08-27T15:44:07 IST" name="configBM" finished-at="2021-08-27T15:44:09 IST" duration-ms="1371" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:35 IST" name="configBM" finished-at="2021-09-04T17:14:37 IST" duration-ms="1646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-08-27T15:44:09 IST" name="Login" data-provider="LoginData" finished-at="2021-08-27T15:44:09 IST" duration-ms="804" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:37 IST" name="Login" data-provider="LoginData" finished-at="2021-09-04T17:14:38 IST" duration-ms="774" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,15 +36,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-08-27T15:44:09 IST" name="configAM" finished-at="2021-08-27T15:44:09 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:38 IST" name="configAM" finished-at="2021-09-04T17:14:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-08-27T15:44:09 IST" name="configBM" finished-at="2021-08-27T15:44:10 IST" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:38 IST" name="configBM" finished-at="2021-09-04T17:14:38 IST" duration-ms="424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-08-27T15:44:10 IST" name="Login" data-provider="LoginData" finished-at="2021-08-27T15:44:10 IST" duration-ms="362" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:38 IST" name="Login" data-provider="LoginData" finished-at="2021-09-04T17:14:39 IST" duration-ms="720" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,15 +65,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-08-27T15:44:10 IST" name="configAM" finished-at="2021-08-27T15:44:10 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:39 IST" name="configAM" finished-at="2021-09-04T17:14:39 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-08-27T15:44:10 IST" name="configBM" finished-at="2021-08-27T15:44:10 IST" duration-ms="195" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:39 IST" name="configBM" finished-at="2021-09-04T17:14:39 IST" duration-ms="261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-08-27T15:44:10 IST" name="Login" data-provider="LoginData" finished-at="2021-08-27T15:44:11 IST" duration-ms="700" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:39 IST" name="Login" data-provider="LoginData" finished-at="2021-09-04T17:14:40 IST" duration-ms="352" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,15 +94,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-08-27T15:44:11 IST" name="configAM" finished-at="2021-08-27T15:44:11 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:40 IST" name="configAM" finished-at="2021-09-04T17:14:40 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-08-27T15:44:11 IST" name="configBM" finished-at="2021-08-27T15:44:11 IST" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:40 IST" name="configBM" finished-at="2021-09-04T17:14:40 IST" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-08-27T15:44:11 IST" name="Login" data-provider="LoginData" finished-at="2021-08-27T15:44:22 IST" duration-ms="10785" status="FAIL">
+        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:40 IST" name="Login" data-provider="LoginData" finished-at="2021-09-04T17:14:51 IST" duration-ms="10630" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -124,13 +124,13 @@
             <message>
               <![CDATA[java.lang.reflect.InvocationTargetException
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'PRASAD', ip: '172.16.17.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+System info: host: 'PRASAD', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'PRASAD', ip: '172.16.17.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+System info: host: 'PRASAD', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: driver.version: RemoteWebDriver
 at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:315)
 at org.openqa.selenium.json.JsonOutput.lambda$new$14(JsonOutput.java:152)
@@ -156,7 +156,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:614)
 at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:640)
 at org.openqa.selenium.interactions.Actions.perform(Actions.java:596)
-at com.StrongerMe.generics.WebDriverUtility.mouseOver(WebDriverUtility.java:88)
+at com.StrongerMe.generics.WebDriverUtility.mouseOver(WebDriverUtility.java:90)
 at com.StromgerMe.Scripts.LoginTest.Login(LoginTest.java:29)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
@@ -188,7 +188,7 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'PRASAD', ip: '172.16.17.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+System info: host: 'PRASAD', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: driver.version: RemoteWebDriver
 at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:276)
 at org.openqa.selenium.json.Json.toJson(Json.java:44)
@@ -201,13 +201,13 @@ at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:311)
 ... 53 more
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Logout']"}
-  (Session info: chrome=92.0.4515.159)
+  (Session info: chrome=93.0.4577.63)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'PRASAD', ip: '172.16.17.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+System info: host: 'PRASAD', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 10be6b672e5a6a08a402d393d6993ff0
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57418}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2549db49b4c9b0a44f140b8ad27dc7a3
 *** Element info: {Using=xpath, value=//button[text()='Logout']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
@@ -238,11 +238,11 @@ at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-08-27T15:44:24 IST" name="configAM" finished-at="2021-08-27T15:44:24 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:52 IST" name="configAM" finished-at="2021-09-04T17:14:52 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="cofigAC()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-08-27T15:44:24 IST" name="cofigAC" finished-at="2021-08-27T15:44:24 IST" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="cofigAC()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:52 IST" name="cofigAC" finished-at="2021-09-04T17:14:53 IST" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cofigAC -->
