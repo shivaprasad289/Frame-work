@@ -1,163 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-04T17:14:32 IST" name="Suite" finished-at="2021-09-04T17:14:53 IST" duration-ms="20195">
+  <suite started-at="2021-09-24T10:33:38 IST" name="Default suite" finished-at="2021-09-24T10:33:41 IST" duration-ms="3355">
     <groups>
     </groups>
-    <test started-at="2021-09-04T17:14:32 IST" name="Test" finished-at="2021-09-04T17:14:53 IST" duration-ms="20195">
-      <class name="com.StromgerMe.Scripts.LoginTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:33 IST" name="configBC" finished-at="2021-09-04T17:14:35 IST" duration-ms="1831" status="PASS">
+    <test started-at="2021-09-24T10:33:38 IST" name="Default test" finished-at="2021-09-24T10:33:41 IST" duration-ms="3355">
+      <class name="com.StromgerMe.Scripts.Coach">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.StromgerMe.Scripts.Coach@c33b74f]" started-at="2021-09-24T10:33:38 IST" name="configBC" finished-at="2021-09-24T10:33:40 IST" duration-ms="2050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:35 IST" name="configBM" finished-at="2021-09-04T17:14:37 IST" duration-ms="1646" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.StromgerMe.Scripts.Coach@c33b74f]" started-at="2021-09-24T10:33:41 IST" name="configBM" finished-at="2021-09-24T10:33:41 IST" duration-ms="395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:37 IST" name="Login" data-provider="LoginData" finished-at="2021-09-04T17:14:38 IST" duration-ms="774" status="PASS">
+        <test-method signature="addCoach(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.StromgerMe.Scripts.Coach@c33b74f]" started-at="2021-09-24T10:33:41 IST" name="addCoach" data-provider="CoachData" finished-at="2021-09-24T10:33:41 IST" duration-ms="137" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin]]>
+                <![CDATA[SM_addCoach_name]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[admin]]>
+                <![CDATA[D:\StrongaMe\images\Decline Bench press.jpg]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Invalid]]>
+                <![CDATA[Keerthan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999999999']]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[keerthan@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Gold]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Builder]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Builder]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Builder]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:38 IST" name="configAM" finished-at="2021-09-04T17:14:38 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:38 IST" name="configBM" finished-at="2021-09-04T17:14:38 IST" duration-ms="424" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:38 IST" name="Login" data-provider="LoginData" finished-at="2021-09-04T17:14:39 IST" duration-ms="720" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:39 IST" name="configAM" finished-at="2021-09-04T17:14:39 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:39 IST" name="configBM" finished-at="2021-09-04T17:14:39 IST" duration-ms="261" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:39 IST" name="Login" data-provider="LoginData" finished-at="2021-09-04T17:14:40 IST" duration-ms="352" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin12 ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin12]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:40 IST" name="configAM" finished-at="2021-09-04T17:14:40 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:40 IST" name="configBM" finished-at="2021-09-04T17:14:40 IST" duration-ms="303" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:40 IST" name="Login" data-provider="LoginData" finished-at="2021-09-04T17:14:51 IST" duration-ms="10630" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin12]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.json.JsonException">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[java.lang.reflect.InvocationTargetException
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=93.0.4577.82)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'PRASAD', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: RemoteWebDriver]]>
+System info: host: 'PRASAD', ip: '10.10.20.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 41dc3d3bf7304f5a6696879ecb6e9c0c
+*** Element info: {Using=xpath, value=//input[@name='user_id']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=93.0.4577.82)
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'PRASAD', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:315)
-at org.openqa.selenium.json.JsonOutput.lambda$new$14(JsonOutput.java:152)
-at org.openqa.selenium.json.JsonOutput$SafeBiConsumer.accept(JsonOutput.java:407)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:261)
-at org.openqa.selenium.json.JsonOutput.lambda$null$19(JsonOutput.java:165)
-at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
-at org.openqa.selenium.json.JsonOutput.lambda$new$20(JsonOutput.java:165)
-at org.openqa.selenium.json.JsonOutput$SafeBiConsumer.accept(JsonOutput.java:407)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:261)
-at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:174)
-at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
-at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:173)
-at org.openqa.selenium.json.JsonOutput$SafeBiConsumer.accept(JsonOutput.java:407)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:261)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:252)
-at org.openqa.selenium.json.Json.toJson(Json.java:42)
-at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
-at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+System info: host: 'PRASAD', ip: '10.10.20.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 41dc3d3bf7304f5a6696879ecb6e9c0c
+*** Element info: {Using=xpath, value=//input[@name='user_id']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:614)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:640)
-at org.openqa.selenium.interactions.Actions.perform(Actions.java:596)
-at com.StrongerMe.generics.WebDriverUtility.mouseOver(WebDriverUtility.java:90)
-at com.StromgerMe.Scripts.LoginTest.Login(LoginTest.java:29)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+at com.StrongerMe.ObjectRepositry.LoginPage.login(LoginPage.java:38)
+at com.StromgerMe.Scripts.Coach.addCoach(Coach.java:18)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -186,67 +133,21 @@ at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'PRASAD', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:276)
-at org.openqa.selenium.json.Json.toJson(Json.java:44)
-... 38 more
-Caused by: java.lang.reflect.InvocationTargetException
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:311)
-... 53 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Logout']"}
-  (Session info: chrome=93.0.4577.63)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'PRASAD', ip: '192.168.1.65', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57418}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2549db49b4c9b0a44f140b8ad27dc7a3
-*** Element info: {Using=xpath, value=//button[text()='Logout']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy16.getWrappedElement(Unknown Source)
-at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
-at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
-at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
-at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
-... 58 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:52 IST" name="configAM" finished-at="2021-09-04T17:14:52 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- addCoach -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.StromgerMe.Scripts.Coach@c33b74f]" started-at="2021-09-24T10:33:41 IST" name="configAM" finished-at="2021-09-24T10:33:41 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="cofigAC()[pri:0, instance:com.StromgerMe.Scripts.LoginTest@130161f7]" started-at="2021-09-04T17:14:52 IST" name="cofigAC" finished-at="2021-09-04T17:14:53 IST" duration-ms="337" status="PASS">
+        <test-method is-config="true" signature="cofigAC()[pri:0, instance:com.StromgerMe.Scripts.Coach@c33b74f]" started-at="2021-09-24T10:33:41 IST" name="cofigAC" finished-at="2021-09-24T10:33:41 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cofigAC -->
-      </class> <!-- com.StromgerMe.Scripts.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.StromgerMe.Scripts.Coach -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

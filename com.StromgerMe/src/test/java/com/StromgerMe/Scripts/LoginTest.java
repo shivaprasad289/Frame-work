@@ -6,9 +6,6 @@ import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import com.StrongerMe.ObjectRepositry.HomePage;
-import com.StrongerMe.ObjectRepositry.LoginPage;
 import com.StrongerMe.generics.IAutoConstant;
 import com.StrongerMe.generics.BaseClass;
 
@@ -16,12 +13,9 @@ public class LoginTest extends BaseClass{
 		
 	@Test(dataProvider = "LoginData")
 	public void Login(String userName,String password,String expResult) throws IOException {
-		
-		HomePage homePage = new HomePage(driver);
 		String actualErrorMessage;
-		LoginPage login =new LoginPage(driver);	
 		logger.info("Login to the application");
-		login.login(userName,password);
+		loginPage.login(userName,password);
 		actualErrorMessage = "Enter valid Admin ID and Password";
 		if(expResult.equals("Valid")) 
 		{
@@ -36,7 +30,7 @@ public class LoginTest extends BaseClass{
 			boolean res = driver.getPageSource().contains(actualErrorMessage);
 			if(res==true) {
 				Assert.assertTrue(true);
-				logger.info("Test case pass...");
+				logger.info("Test case pass..."); 
 			}
 			else {
 				Assert.assertTrue(false); 

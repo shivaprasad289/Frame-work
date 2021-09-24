@@ -29,8 +29,8 @@ public class BaseTest
 	public ExcelUtiltiy eUtil = new ExcelUtiltiy(IAutoConstant.EXCELPATH);
 	public FileUtility fUtil = new FileUtility(IAutoConstant.COMMONDATAPROPERTYPATH);;
 	public WebDriverUtility wUtil = new WebDriverUtility();
-	public LoginPage loginPage;
-	public HomePage homePage;
+	public com.StrongerMe.ObjectRepositry.LoginPage loginPage;
+	public com.StrongerMe.ObjectRepositry.HomePage homePage;
 	public Logger logger;
 	
 	@BeforeClass

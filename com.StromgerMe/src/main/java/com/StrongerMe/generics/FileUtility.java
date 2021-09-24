@@ -22,7 +22,7 @@ public class FileUtility {
 	}
 	public String getPropertyStringValue(String key) throws IOException
 	{
-		FileInputStream file = new FileInputStream(propertyFilePath);
+   		FileInputStream file = new FileInputStream(propertyFilePath);
 		Properties p = new Properties();
 		p.load(file);
 		file.close();

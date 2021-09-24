@@ -34,7 +34,7 @@ public class WebDriverUtility{
 	 * @param driver
 	 */
 	public void waitUntilPageLoad(WebDriver driver) {
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	/**
 	 * This method wait for the element to be visible.
@@ -43,7 +43,7 @@ public class WebDriverUtility{
 	 */
 	public void waitForElementVisibility(WebDriver driver, WebElement element) {
 		WebDriverWait wait = new WebDriverWait(driver, 20);
-		wait.until(ExpectedConditions.visibilityOf(element));
+		wait.until(ExpectedConditions.visibilityOf(element));  
 	}
 	/**
 	 * This method wait for the element to be clicked.
@@ -185,7 +185,6 @@ public class WebDriverUtility{
 	/**
 	 * This method helps to pass driver control from one frame window to another
 	 * frame window using index.
-	 * 
 	 * @param driver
 	 * @param index
 	 */
@@ -269,12 +268,32 @@ public class WebDriverUtility{
 		logger.info("Refresh successfully");
 	}
 	/**
-	 *This method returnsthe visible, inner text (which is not hidden by CSS) of 	the web-element.
+	 *Retrive String value from web element.
 	 * @param element
 	 * @return
 	 */
 	public String getText(WebElement element) {
 		return element.getText().toString().trim();
+	}
+	/**
+	 * Ckick on the element
+	 * @param by
+	 * @return
+	 */
+	public boolean retryingFindClick(WebElement element) {
+	    boolean result = false;
+	    int attempts = 0;
+	    while(attempts < 2) {
+	        try {
+	        	Thread.sleep(2000);
+	            element.click();
+	            result = true;
+	            break;
+	        } catch(Exception e) {
+	        }
+	        attempts++;
+	    }
+	    return result;
 	}
 	
 }

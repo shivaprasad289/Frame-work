@@ -21,6 +21,7 @@ public interface IAutoConstant {
 	String RESULTEXCELPATH = "./src/test/resources/Result.xlsx";
 	String LOGINRESULTSHEETNAME = "Login_Result";
 	String LOGINSHEETNAME = "Login_data";
+	int WAITTIME = 30;
 	
 	
 
